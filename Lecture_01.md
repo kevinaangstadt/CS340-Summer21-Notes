@@ -1,8 +1,8 @@
-\# Lecture 1 (5-03)
+# Lecture 1 (5-03)
 
 ## Introduction to software engineering
 
-Software is \*\*critical\*\* to modern life. For example:
+Software is **critical** to modern life. For example:
 
 -Large scale communication and spread of information could not be achieved without software.
 
@@ -25,11 +25,11 @@ Many of these software errors can be attributed to poor planning and maintenance
 
 ### What is going here?
 
-Software is much larger than just a \*\*program\*\*
+Software is much larger than just a **program**
 
-A \*\*program\*\* is a collection of instructions or order of operations for a computer to perform a specific task.
+A **program** is a collection of instructions or order of operations for a computer to perform a specific task.
 
-\*\*Software\*\* is often a collection of programs, procedures, data, or instructions that work together to provide specific functionality. 
+**Software** is often a collection of programs, procedures, data, or instructions that work together to provide specific functionality. 
 
 In software engineering, a rather small amount of a team's time is spent actually writing the code. The majority of it is spent on maintenance. FTherefore, a good engineering team needs great...
 
