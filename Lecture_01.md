@@ -4,11 +4,11 @@
 
 Software is **critical** to modern life. For example:
 
--Large scale communication and spread of information could not be achieved without software.
+- Large scale communication and spread of information could not be achieved without software.
 
--Location based information (i.e. GPS) would be impossible to collect.
+- Location based information (i.e. GPS) would be impossible to collect.
 
--Aggregating a collection of logistics would be difficult, as well.
+- Aggregating a collection of logistics would be difficult, as well.
 
 Other areas include:
 
