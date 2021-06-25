@@ -36,7 +36,7 @@
        
 A slightly antiquated example of a centralized VCS is <a href="https://subversion.apache.org/">SVN</a>.  
 
-\*\*Distributed\*\*: each copy of the repository contains the full history of the repo.
+**Distributed**: each copy of the repository contains the full history of the repo.
     
    - PROS:
        - resolves redundancy, to an extent
