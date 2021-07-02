@@ -1,8 +1,10 @@
-# Lecture 6 (05-14)
+#### CS 340 Class Notes Summer 2021
 
-## Version Control Systems
+# Lecture 6: Version Control Systems
 
-### Goals
+(05-14)
+
+## Goals
 
 - Redundancy: retaining files in the face of hardware/software failures
 
@@ -13,7 +15,7 @@
     - you can see who made a change, "blaming" the person who owns the commit
     - understand original purpose/history of a project (this is useful for adding new features)
 
-### Related goals
+## Related goals
 - building the project into a larger management tool
     
 - tracking bugs/issues
