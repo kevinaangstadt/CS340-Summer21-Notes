@@ -1,4 +1,8 @@
-# Lecture 14 (06-02)
+#### CS 340 Class Notes Summer 2021
+
+# Lecture 14: Quality Assurance Review
+
+(06-02)
 
 ## Quality Assurance Wrap-Up:
 - Gaining confidence in specifications / no bugs / bad behavior.
