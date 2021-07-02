@@ -1,4 +1,8 @@
-# Lecture 1 (5-03)
+#### CS 340 Class Notes Summer 2021
+
+# Lecture 1: What is software engineering?
+
+(5-03)
 
 ## Introduction to software engineering
 
