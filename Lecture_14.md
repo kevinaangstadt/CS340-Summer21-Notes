@@ -42,3 +42,5 @@ External quality -> customer-facing (does it work as promised?)
 	- Unit testing -> testing individual pieces of code in isolation
 	- Integration testing -> do pieces of code combine and still function correctly?
 	- End to end testing (as featured in P1) -> essentially testing a program from beginning to end
+
+#### The remainder of this class is devoted to working on [P3](https://myslu.stlawu.edu/~kangstadt/teaching/summer21/340/p3.html)
