@@ -1,4 +1,9 @@
-# Lecture 18 (06-11)
+  
+#### CS 340 Class Notes Summer 2021
+
+# Lecture 18: Debugging as Hypothesis
+
+(06-11-21)
 
 ## Our plan (from the previous class):
 - Run both passing and failing tests
@@ -6,7 +11,7 @@
 - Do "math" to rank lines by this coverage information
 	- Demote lines that are used to pass memory tests
 	- Prioritize lines that are used just in failing tests
-- **What* is* the math that we're going to use? There are two main approaches here:**
+- *What is the math that we're going to use?* There are two main approaches here:
 	- **Tarantula**: *S(L) = (failed(L) / total failed) / ((failed(L) / total failed) + (passed(L) / total passed)), where S is the suspicion of line L*.
 	- **Ochiai Metric**: *S(L) = failed(L) /  $\sqrt{failed(L) (failed(L) + passed(L))}$*
 	- The better metric here will put the "actual" bugged line as a priority.
@@ -61,7 +66,8 @@ def failed(self, executable, missed):
 - Yesterday, the code "worked". Today, the code "crashed". Which commit caused this to fail?
 - A **causality** is influenced by which one event (a cause) contributes to the production of another event (an effect) where the cause is partly responsible for the effect, and the effect partly depends on the cause
 	- Counterfactual theories on causality: *If A had not occurred, then C would not have occurred*
-- One can conduct a binary search upon a repo's history to find the failure-inducing commit. This takes O(ln(n)) time, where n = number of commits. This is called **bisecting**
+- One can conduct a binary search upon a repo's history to find the failure-inducing commit.
+	- This takes O(l*n*(*n*)) time, where *n* = number of commits. This is called **bisecting**
 
 **Useful bisecting commands:**
 `git bisect start`: start a bisecting search
