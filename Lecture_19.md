@@ -2,13 +2,6 @@
 # Lecture 19: Debugging as Hypothesis Testing
 (06/14/2021)
 
-## **Overview**
-
-* **Bug Localization**
-* **One-minimal Sets**
-* **Delta Debuggin**
-
-
 ### Bug Localization
 
 What if one commit is huge? Or if the input is too large? Or we have far too many test inputs that generate a given bug?  
@@ -39,15 +32,18 @@ But what does is mean for something to be "interesting"?
 
 First Attempt:  
 
-```
+```python
 Minimize_Interesting({c1,c2,c3,c4,....,cn})
-	if n = 1: return {c1}
+	if n = 1: 
+		return {c1}
 	
 	let P1 = {c1, c2, ..., c(n/2)}
 	let P2 = {c(n/2 + 1), ..., cn}
 	
-	if Interesting(P1): return Minimize_Interesting(P1)
-	else: return Minimize_Interesting(P2)
+	if Interesting(P1): 
+		return Minimize_Interesting(P1)
+	else: 
+		return Minimize_Interesting(P2)
 	
 ```
 
@@ -63,7 +59,7 @@ The union of the minimal elements from P1 and P2 will be our one-minimal set.
 
 Second Attempt (Delta-Debugging):
 
-```
+```pythong
 DD({c1, c2, ...,cn}, required = {})
 	if n = 1:
 		return {c1}
