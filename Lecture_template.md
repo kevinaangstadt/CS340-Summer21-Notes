@@ -2,12 +2,6 @@
 # Lecture #: Topic   
 (mm/dd/2021)
 
-## **Overview**
-
-* **Topic 1**
-* **Topic 2**
-* **Topic 3**
-
 
 #### Topic 1
 
@@ -19,7 +13,7 @@ Text-body
 ...  
 put two spaces for clean line breaks
 
-```
+```python
 python example code(foo)
 	Statement
 	statement
@@ -45,7 +39,7 @@ Explanations of things.
 
 #### Topic 3
 
-```
+```bash
 > Example bash commands
 > find random | grep *1.5
 > if [ -f $f ]
