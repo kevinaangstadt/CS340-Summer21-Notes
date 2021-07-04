@@ -2,12 +2,6 @@
 # Lecture 9: Quality Assurance and Testing
 (5/21/2021)
 
-## **Overview**
-* **Types of Software Quality**
-* **Rice's Theorem**
-* **Types of Testing**
-
-
 #### Types of Software Quality
 There is both **Internal** and **External** Quality of software.  
 
