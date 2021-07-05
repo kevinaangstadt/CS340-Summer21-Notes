@@ -2,8 +2,7 @@
 # Lecture #: Topic   
 (mm/dd/2021)
 
-
-#### Topic 1
+## Topic 1
 
 Text-body 
 ...  
@@ -25,19 +24,20 @@ Explanations of things.
 ...  
 ...  
 
+- Bulleted Points
+	+ With more details
 
 **Maybe important detail**
 
-#### Topic 2
+## Topic 2
 
-**Maybe this one is a list of steps or commands**
-
+### Maybe this one is a list of steps or commands
 * listed item
 * listed item
 * **command**: explanation
 * **command -flag**: explanation
 
-#### Topic 3
+## Topic 3
 
 ```bash
 > Example bash commands
