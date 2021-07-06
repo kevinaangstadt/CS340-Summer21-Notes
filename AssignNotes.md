@@ -10,9 +10,9 @@
 | Day 05 | Eduardo | y | n | N/A |
 | Day 06 | Jonah | y | n | N/A |
 | Day 07 | Eduardo | n | n | N/A |
-| Day 08 | Kevin | n | n | N/A |
+| Day 08 | Kevin | y | n | N/A |
 | Day 09 | Olivia | y | n | N/A |
-| Day 10 | Kevin | n | n | N/A |
+| Day 10 | Kevin | y | n | N/A |
 | Day 11 | Olivia | n | n | N/A |
 | Day 12 | N/A | n | n | N/A |
 | Day 13 | Kevin | n | n | N/A |
