@@ -52,7 +52,7 @@
 ```
 {
     for i in {<start>..<end>..<increment(optional)>}
-    do
+    do 
     <body>
     done
 }
