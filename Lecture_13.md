@@ -110,3 +110,38 @@ assertEquals(indes, array-len-1)
 **DEFN:** A **invariant** is a predicate (boolean expression) over program varaiable that is true on every execution of that program
 - Can serve as oracles
 
+We will learn (or infer) program invariants by running the program many times and then note what is always true of the output
+
+**EX:** sqrt() => return value >= 0
+
+Assumption: Common behavior == correct behavior 
+- When this assumption fails:
+	- EX: run sqrt(9) learn ret-val == 3
+		- run more tests with different inputs
+	- EX: test "findNode" 1000 times and learn pointer%4 == 0
+		- artifact of our system
+		- it cost money to check something we dont care about
+
+Competent Programers
+- Each line of code matter for correctness
+- generate mutants
+	- falsify invariant -> Keep
+	- never falsify -> Threo it out
+
+This is an example of search-based software engineering (SBSE)
+
+In reality at companies there are too many tests!
+- auto-gen -> often low-quality
+
+### Test Suite Minimization Problem
+Given a set of test cases and coverage information for each test, find the minimal number of test cases that still have mazimum coverage.
+
+**EX:**
+|T  | numbers  |
+|---|----------|
+|T1	|1,2,3     |
+|T2	|  2,3,4,5 |
+|T3 |1,2       |
+|T4 |1,       6|
+
+
