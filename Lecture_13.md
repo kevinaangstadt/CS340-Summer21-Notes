@@ -3,73 +3,41 @@
 (mm/dd/2021)
 
 
-#### Topic 1
+### Path Coverage
+Path coverage subsumes branch coverage
 
-Text-body 
-...  
-...  
-...  
-...  
-...  
-put two spaces for clean line breaks
+If there are N sequential (serial) if-statements
+- 2N branch edges -> 2 tests
+- 2^N paths -> 2^N tests
+
+b^N -> for b branches of a node with N serial b-branch nodes
+- switch/case
 
 ```python
-python example code(foo)
-	Statement
-	statement
+if
+elif
+elif
+elif
+else
 ```
 
-Explanations of things.  
-...  
-...  
-...  
-...  
-
-
-**Maybe important detail**
-
-#### Topic 2
-
-**Maybe this one is a list of steps or commands**
-
-* listed item
-* listed item
-* **command**: explanation
-* **command -flag**: explanation
-
-#### Topic 3
-
-```bash
-> Example bash commands
-> find random | grep *1.5
-> if [ -f $f ]
-> do
-> else
-> then
-> fi
 ```
-Maybe sometimes you need to link something [here](https://en.wikipedia.org/wiki/Main_Page).
+switch(c) {
+	case 1:
+	case 2:
+	case 3:
+	...
 
-### Additional Commands, comments 
-* **grep**
-* **find**
-* **cut**
+}
+```
 
+**DEFN:** A **Path Predicate** (path condition or path constraint) is a boolean formula over program variables that is true when the program executes the given path.
 
-Project updates (?)  
-Resources used
+**EX:** Path Predicate: false->false->true
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Path Predicate 
+```
+(a >= b) && (c >= d) && (e < f)
+```
+If this is true, our program will execute the desired pattern:
+a = 0, b = 0, c = 0, d = 0, e = 0, f = 1
