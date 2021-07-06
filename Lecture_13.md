@@ -41,3 +41,38 @@ Path Predicate
 ```
 If this is true, our program will execute the desired pattern:
 a = 0, b = 0, c = 0, d = 0, e = 0, f = 1
+
+How do we compute satisfying assignments for path prdicates?
+- Human
+	- Lot of work
+- Random inputs
+	- Works really well when answers no sparse
+- Use an automated theorem prover
+	- Works really well for restricted kinds of equations
+
+Issue -> Infinitely many paths
+
+Each execution of a loop produces a new path
+
+
+### Approximate
+- Only a cyclic path (take  loop 0 or 1 times)
+- Take the loop "K" times (unrolling loop K times)
+- Enumerating paths depth/breadth first and stop after K paths have been enumerated
+
+**EX:**
+```
+foo(a,b):
+	str1 = get_url(...) # a & b dont control path
+	str2 = get_url(...)
+
+	if str1 = str2:
+		bar()
+```
+
+Solution:
+- Give controlled data
+	- What does test input mean?
+- Don't care
+- Ask solver (theorm prover) to only give answers in terms of variables we control
+- Do our best (partial assignment)
