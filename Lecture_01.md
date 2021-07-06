@@ -1,8 +1,6 @@
 #### CS 340 Class Notes Summer 2021
-
 # Lecture 1: What is software engineering?
-
-(5-03)
+(05/03/2021)
 
 ## Introduction to software engineering
 
@@ -29,7 +27,7 @@ Many of these software errors can be attributed to poor planning and maintenance
 
 ### What is going here?
 
-Software is much larger than just a **program**
+Software is much larger than just a **program**.
 
 A **program** is a collection of instructions or order of operations for a computer to perform a specific task.
 
