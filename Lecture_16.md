@@ -91,40 +91,11 @@ In CS, **Issues** are the union of bug reports and feature requests
     - Resolution Status: result of the most recent attempt to adress the report
         - **not** necessarily fixed
 
+5. **Send to QA**
 
-
-
-
-
-
-
-
-
-**Maybe this one is a list of steps or commands**
-
-* listed item
-* listed item
-* **command**: explanation
-* **command -flag**: explanation
-
-### Topic 3
-
-```bash
-> Example bash commands
-> find random | grep *1.5
-> if [ -f $f ]
-> do
-> else
-> then
-> fi
-```
-Maybe sometimes you need to link something [here](https://en.wikipedia.org/wiki/Main_Page).
-
-### Additional Commands, comments 
-* **grep**
-* **find**
-* **cut**
-
-
-Project updates (?)  
-Resources used
+6. **Reopen**
+    - Evidence that previous resolution is insufficient
+        - new bug reports
+        - no longer out of scope
+        - QA/testing finds mistakes
+    - cf. regression testing
