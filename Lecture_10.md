@@ -35,3 +35,28 @@ Test fixture -> code that runs first to initialize data structures and then afte
 
 Whats the difference between unit and integration testing?
 - Abstraction! Just one level higher is integration testing
+
+**Ex:** 
+- Project 1: Run program with input and diff outputs
+- Website/GUI: Use tool to simulate mouse clicks
+- As Software: Testing simulate disk/network failure
+- Video Game: AI to play the game  
+
+What are some things that are "hard" to test?
+- Cost/dependencies/random chance
+
+**Mocking** uses fake/simulated objects (mock objects) that mimic the behavior of the real objects in controlled ways
+
+Stub methods/objects -> place holders for the real thing
+
+Mock Objects are like hte crash test dummies of the coding world
+
+**EX:** 
+Web app that uses speach-to-tex API
+- API could still be under dev/cost per call
+- For each function just return hard-coded data
+
+**EX:**
+Code where certain kinds of errors might happen (Disk full, connection dropped) sporatically but "never" in development
+- Mocking framework exit to automate this (unittest.mock)
+- Saces you time from writting all these wrappers yourself 
