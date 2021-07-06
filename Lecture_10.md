@@ -59,4 +59,17 @@ Web app that uses speach-to-tex API
 **EX:**
 Code where certain kinds of errors might happen (Disk full, connection dropped) sporatically but "never" in development
 - Mocking framework exit to automate this (unittest.mock)
-- Saces you time from writting all these wrappers yourself 
+- Saces you time from writting all these wrappers yourself
+
+
+### Test Metrics
+35% of IT budget
+Not testing code is more expensive -> 30x more after code is public
+
+Gedanken Experiment:
+- Write sqrt program that should exit gracefully on negative inputs
+- Test suite that **does not** include negative inputs
+- can we conclude that passing all tests implies adhearing to all requirements?
+	- No. Negative inputs were not covered
+
+We want: All requirements to be covered (checked) by the test suite.
