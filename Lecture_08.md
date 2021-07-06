@@ -1,5 +1,5 @@
 #### CS 340 Class Notes Summer 2021
-# Lecture 08: GitHub and Repositories   
+# Lecture 08: GitHub and Repositories
 (mm/dd/2021)
 
 
@@ -68,17 +68,21 @@ Sudo lables to the remote:
 6. Open pull request
 	- Return to step 4
 
+### **Commands**
+reset/revert: create a new commiot that undoes some changes
+- undoes changes by copying the version of the file from another commit
+- **git reset --hard HEAD:** Resets working directory
+- **git reset --soft HEAD:** Resets only staging directory
 
 
+# Quality Assurance and Testing
+- Want to deliver high-quality software at a low cost
+- How do we measure, assess, or assure software quality?
 
+**DEFN: Quality Assurance** *is the maintenance of a desired level of quality in a service or product especially by means of attention to every stage of the process of delivery or production.*
 
-
-
-
-
-
-
-
-
-
-
+Two finds of quality:
+1. External (Customer-facing)
+	- programs should "do the right thing"
+2. Internal (developer-facing)
+	- program should be readable, maintainable, etc,...
