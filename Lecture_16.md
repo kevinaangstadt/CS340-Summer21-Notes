@@ -74,9 +74,22 @@ In CS, **Issues** are the union of bug reports and feature requests
         - how expensive is it to fix?
         - how expensive is it to **not** fix?
 
-        **Shell**
-    : a program that exposes an OS's servives and programs to a human user
-    - text based interface
+        **Severity**
+    : Degree of impact a defect has on dev. or operation of SW
+    - cost to not fix
+
+        **Priority**
+    : Importance or urgenct of fixing
+
+3. **Assignment**: Who will work on this bug?
+    - Based on "ownership"
+    - Destributed: developers watch the bug queue and claim reports
+    - Cetralized: QA people watch the queue and assign reports to a pool of developers
+
+4. **Bug Resolution**: Did we fix it?
+    - done the work for the report
+    - Resolution Status: result of the most recent attempt to adress the report
+        - **not** necessarily fixed
 
 
 
