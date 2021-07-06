@@ -1,9 +1,8 @@
 #### CS 340 Class Notes Summer 2021
-# Lecture #: Topic   
-(mm/dd/2021)
+# Lecture 17: Fault Localization
+(06/09/2021)
 
-
-#### Topic 1
+## Topic 1
 
 Text-body 
 ...  
@@ -25,19 +24,20 @@ Explanations of things.
 ...  
 ...  
 
+- Bulleted Points
+	+ With more details
 
 **Maybe important detail**
 
-#### Topic 2
+## Topic 2
 
-**Maybe this one is a list of steps or commands**
-
+### Maybe this one is a list of steps or commands
 * listed item
 * listed item
 * **command**: explanation
 * **command -flag**: explanation
 
-#### Topic 3
+## Topic 3
 
 ```bash
 > Example bash commands
@@ -58,5 +58,3 @@ Maybe sometimes you need to link something [here](https://en.wikipedia.org/wiki/
 
 Project updates (?)  
 Resources used
-
-
