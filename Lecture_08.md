@@ -28,8 +28,14 @@ Commit messages can be several lines long (and should be??)
 - Dont mix unrelated functional changes
 - Dont submit all code as a single commit (rebase/cherry-pick is super helpful)
 
-**Maybe this one is a list of steps or commands**
+Try to keep commits small:
+- Easier to troubleshoot
+- Easier to revert
+- Easier to review
+- Easier to blame
 
+
+**Maybe this one is a list of steps or commands**
 * listed item
 * listed item
 * **command**: explanation
