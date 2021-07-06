@@ -39,12 +39,12 @@ Let us motivate the origin of mutation testing via the strategies we might use t
     + Mutation Operators (MO): example patterns/rules for seeding defects
 
 Some common examples of mutation operators include switching boolean or arithmetic operators and switching the order of variable assignments and function calls.
-'''
+```
 if (a < b) ->  if (a == b)
 a = b + c  ->  a = b - c
 x = y      ->  y=x
 f(); g();  ->  g(); f(); 
-'''
+```
 
 ### Mutants
 A mutant (variant) is a version of the original program produced by applying one of more MO. The **order** is the number of MO applied. Hopefully the test suite can find the mutants, this gives us more confidence that convergae alone since we get a sense that the test suite has previously identified code we know to be buggy. 
@@ -56,7 +56,7 @@ Why does this work:
     + **BUT** not all bugs are small!
 - Because we want them to work since this gives a convient metric
     + We have motivation to model more complex bugs via higher order mutants
-    + This is known as the ***Coupling Hypothesis**, the idea that complex faults are combinations of small faults
+    + This is known as the **Coupling Hypothesis**, the idea that complex faults are combinations of small faults
 - Note that tests that detect simple mutants can detect over 99% of 2nd and 3rd order mutants, which seems reasonable evidence for the two reasons provided
 - However there are still other kinds of more complex bugs we might not be able to find via mutation testing
 
