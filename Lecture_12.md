@@ -60,32 +60,50 @@ Why does this work:
 - Note that tests that detect simple mutants can detect over 99% of 2nd and 3rd order mutants, which seems reasonable evidence for the two reasons provided
 - However there are still other kinds of more complex bugs we might not be able to find via mutation testing
 
-## Topic 2
+What does MT measure?
+- Percent of mutants found by the test suite
+    + Also known as Mutation Adequacy score
 
-### Maybe this one is a list of steps or commands
-* listed item
-* listed item
-* **command**: explanation
-* **command -flag**: explanation
+### Limitations
+Mutation Testing is expensive
+- A lot of computations to runs
+    + Run the whole test suite which could be of hundreds of tests, hundreds of times for each mutant individually
+- Equivalent Mutant Problem
+    + Detecting equivalent mutants, which will all pass the same tests
+    + Note these might not look the smae but might logically be the same
+    + Recall how everything that is about the meaning of a program, which equivalence is, is a non-trivial question that we cannot write something nice to figure out -> Rice's Theorem (plug to CS380: Theory of Computation)
 
-## Topic 3
+## Test Input Generation
+Wait, where do all these tests come from? and what even is a test case?
+- A *test case* has three components:
+    + The **test input**: the date we give into the program
+    + The **test oracle**: the expected output
+    + The **comparator**: something that compares the real and expected outputs
+    + This model is called the Oracle-Comparator model 
 
-```bash
-> Example bash commands
-> find random | grep *1.5
-> if [ -f $f ]
-> do
-> else
-> then
-> fi
+### Test inputs
+How do we get these?
+- Humans may generate them
+- Computer
+    + Automatic generation can make life easier
+    + Often we want to optimize for a metric, for example code coverage
+    + This might be useful information about the program under a test
+    + Let's consider branch coverage
+
+Let's run through an exmaple of how we might automate test input generation to optimze for branch coverage of the following code.
+```python
+def foo1(a, b, c, d, e, f):
+    if a < b : this
+    else: that
+    if c < d: foo
+    else: bar
+    if e < f: baz
+    else: qux
 ```
-Maybe sometimes you need to link something [here](https://en.wikipedia.org/wiki/Main_Page).
 
-### Additional Commands, comments 
-* **grep**
-* **find**
-* **cut**
+We can make a control flow graph (CFG) to see the branches we need to cover, in this case it is only six. Note that we need at most two tests to cover all branches, however we can also look at all the possible paths we could take. This is known as path coverage and it is the percent of paths through the CFG we cover. Note that there are $2^n$ paths where $n$ is the number of conditionals to consider. 
 
-
-Project updates (?)  
-Resources used
+### Comparator
+In many cases we do an exact match but we can have more general or partial matches. 
+- Error bounds on numbers/ rounding errors
+- Ignore dates or times
