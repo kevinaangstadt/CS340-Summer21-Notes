@@ -3,73 +3,35 @@
 (mm/dd/2021)
 
 
-#### Topic 1
+### Review
+Test individual pieces of code(fen/class/module)
 
-Text-body 
-...  
-...  
-...  
-...  
-...  
-put two spaces for clean line breaks
+Test in isolation -> inpits and assert that the output meets some criteria
 
-```python
-python example code(foo)
-	Statement
-	statement
-```
+Modules: Basically made up of classes, 1+. "iport <module>"
 
-Explanations of things.  
-...  
-...  
-...  
-...  
+Test fixture -> code that runs first to initialize data structures and then afterwards to clean things up
 
 
-**Maybe important detail**
+**Advantages**
+- test features in isolation (easy to locate bug)
+- small (easy to understand)
+- fast (fast tests can be run frequently)
 
-#### Topic 2
-
-**Maybe this one is a list of steps or commands**
-
-* listed item
-* listed item
-* **command**: explanation
-* **command -flag**: explanation
-
-#### Topic 3
-
-```bash
-> Example bash commands
-> find random | grep *1.5
-> if [ -f $f ]
-> do
-> else
-> then
-> fi
-```
-Maybe sometimes you need to link something [here](https://en.wikipedia.org/wiki/Main_Page).
-
-### Additional Commands, comments 
-* **grep**
-* **find**
-* **cut**
+### **Test-Driven Development**
+- Write unti test for new feature -> fail!
+- Write code that unit test code tests
+- run all tests
+	- Fix anything that breaks 
+- Go back t o beginning 
 
 
-Project updates (?)  
-Resources used
+### **Integration Testing**
+- Features twork well in isolation 
+- What happens if we put unit-tested features together in a larger program?
+- Does the program work from start to finish?
+	- "end-to-end" testing 
+- Combines and tests individual software modules as groups
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Whats the difference between unit and integration testing?
+- Abstraction! Just one level higher is integration testing
