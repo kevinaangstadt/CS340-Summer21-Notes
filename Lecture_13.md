@@ -76,3 +76,37 @@ Solution:
 - Don't care
 - Ask solver (theorm prover) to only give answers in terms of variables we control
 - Do our best (partial assignment)
+
+Did we win?
+
+How do we know the "correct" answr for our inputs?
+
+We are missing the oracle from our oracle-compare to testing model
+
+Test generation
+- Bug finding
+- If program crashes (implicit oracle) on input == bad! 
+- Ex: Automatically generating inputs of death
+
+In geberal, we really want both input and expected output
+
+Oracles are thought to be as difficult to write down formally as it is to write the program correctly
+
+**Oracle Problem** difficulty and cost of determining the correct test oracle for a given input
+
+Can we use the pogram itself as an oracle?
+
+Competent Programer Hypothesis
+- Program is mostly correct 
+
+**EX:**
+Run program with 10 inputs:
+index == array-len -1
+
+Perhaps our oravle could be:
+assertEquals(indes, array-len-1)
+- Should be true every time we run
+
+**DEFN:** A **invariant** is a predicate (boolean expression) over program varaiable that is true on every execution of that program
+- Can serve as oracles
+
