@@ -3,7 +3,7 @@
 (mm/dd/2021)
 
 
-### Information in Commit
+## Information in Commit
 Commit messages can be several lines long (and should be??)
 - Describe the problem being fixed (can reference the bug report number) but description should still be standalone
 - Don't assume access to outside resources
@@ -34,35 +34,39 @@ Try to keep commits small:
 - Easier to review
 - Easier to blame
 
-
-**Maybe this one is a list of steps or commands**
-* listed item
-* listed item
-* **command**: explanation
-* **command -flag**: explanation
+**Useful Commands**
+* **git add --patch**: Pick/choose what to stage
+* **git add -**: Pick/choose what to stage
 
 
-#### Topic 3
+## A Bit More on Remotes
+Once you push to a remote...
 
-```bash
-> Example bash commands
-> find random | grep *1.5
-> if [ -f $f ]
-> do
-> else
-> then
-> fi
-```
-Maybe sometimes you need to link something [here](https://en.wikipedia.org/wiki/Main_Page).
+Each remote gets a "name" in your local repo
 
-### Additional Commands, comments 
-* **grep**
-* **find**
-* **cut**
+Configuration:
+- By default the remote from which you clonedthe repository is called "origin"
 
+RW Repo (Origin) ---fetch---> Local Repo (Branch: Main, feature-1) <---fetch--- RO repo (Upstream)
 
-Project updates (?)  
-Resources used
+^^^^^^^->>--------<<---^^^^^^^^^^--->>-------------------------<<-^^^^^^^
+
+Sudo lables to the remote: 
+- origin/main
+- origin/feature1-1
+- upstream/main
+
+**pull request:** Request for a developer to pull your commits onto the upstream repository
+- same rules apply forpull request as with commits
+
+**Typical Workflow:**
+1. Assign yourself to the issue in the bug tracker (or open an issue and assign self)
+2. Fork repository/clone
+3. make new branch for changes
+4. Commit changes to new branch
+5. Push to the fork
+6. Open pull request
+	- Return to step 4
 
 
 
