@@ -15,7 +15,7 @@
 | Day 10 | Kevin | y | n | N/A |
 | Day 11 | Olivia | n | n | N/A |
 | Day 12 | N/A | n | n | N/A |
-| Day 13 | Kevin | n | n | N/A |
+| Day 13 | Kevin | y | n | N/A |
 | Day 14 | Jonah | y | n | N/A |
 | Day 15 | N/A | n | n | N/A |
 | Day 16 | Cai | n | n | N/A |
