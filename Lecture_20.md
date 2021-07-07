@@ -2,32 +2,28 @@
 # Lecture 20: Delta Debugging Conclusion
 (06/16/2021)
 
-## Topic 1
+## Delta Debugging Review
+Recall the first half of delta debuggin looks like binary search, but we have the *glorious* third condition that lets us do "binary search" on both halves. 
 
-Text-body 
-...  
-...  
-...  
-...  
-...  
-put two spaces for clean line breaks
-
+#### A pseudo-python reference implementation:
 ```python
-python example code(foo)
-	Statement
-	statement
+def DD({c_1, ..., c_n}, required={}):
+	if n == 1:
+		{c_1}
+	let P1 = {c_1, ..., c_n/2}
+	let P2 = {c_(n/2 + 1), ..., c_n} 
+
+	if interesting(required.union(P1)):
+		return DD(P1, required)
+
+	elif interesting(required.union(P2)):
+		return DD(P2, required)
+
+	else:
+		return DD(P1, required.union(P2)).union(DD(P2, required.union(P1)))
 ```
 
-Explanations of things.  
-...  
-...  
-...  
-...  
-
-- Bulleted Points
-	+ With more details
-
-**Maybe important detail**
+This implementation of delta debugging, namely how the else uses a union of two recursive calls on different partitions, allows us to look for interesting sets that are greater than one. 
 
 ## Topic 2
 
