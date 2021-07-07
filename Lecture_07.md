@@ -58,14 +58,14 @@ A *remote repository* is just another copy of the repository, which contains the
 - These repositories will often be hosted on websites such as GitHub/ GitLab
     - They may have nice interfaces and other features as well
 
-### Remote commands
-- **git remote**: Tell repository that there will be other copies of these repositories
+### Remote Commands
+- `git remote`: Tell repository that there will be other copies of these repositories
     + add/ remove repositories to remote
-- **git clone path**: Download a copy of repository history from a remote repo
+- `git clone path`: Download a copy of repository history from a remote repo
     + "origin" remote pointing to where we cloned, this is a remote branch (e.g origin/main)
-- **git push**: Share your local history to the remote
-- **git fetch**: Gets the updated commit history from the remote 
+- `git push`: Share your local history to the remote
+- `git fetch`: Gets the updated commit history from the remote 
     + doesn't update your branches or tags but gives the latest origin branches
     + often we git rebase/merge
-- **git pull**: git fetch + git merge
-    - **-- rebase**: This flag will convert the merge into a rebase instead
+- `git pull`: git fetch + git merge
+    - `-- rebase`: This flag will convert the merge into a rebase instead
