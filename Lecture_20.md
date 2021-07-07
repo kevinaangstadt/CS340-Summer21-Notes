@@ -61,24 +61,13 @@ Let's assume our linear function's runtime is not constant but monotonic with re
 	- Some subsets might not build or run
 	- We might break bad if sometimes answer is yes and sometimes no 
 
-## Topic 3
+## Bonus: Other CS Tangents
++ Theory of Computation:
+	- Changing deterministic finite automata to undeterministic is A-OK, this is not true if we are working with pushdown automata though
+	- This is because of memory, and we do not know how to clone all our memory (in constant amount of time and possibly infinite)
 
-```bash
-> Example bash commands
-> find random | grep *1.5
-> if [ -f $f ]
-> do
-> else
-> then
-> fi
-```
-Maybe sometimes you need to link something [here](https://en.wikipedia.org/wiki/Main_Page).
-
-### Additional Commands, comments 
-* **grep**
-* **find**
-* **cut**
-
-
-Project updates (?)  
-Resources used
++ Operating Systems/ Virtual Memory:
+	- Give every program running the illusion that it is the only program running
+	- This gives programs the ability to use the memory addresses they might want/need
+	- We can do this with a huge mapping
+	- We can also save onto hard drive and give the illusion of infinite memory this way
