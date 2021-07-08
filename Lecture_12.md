@@ -81,6 +81,11 @@ Wait, where do all these tests come from? and what even is a test case?
     + The **comparator**: something that compares the real and expected outputs
     + This model is called the Oracle-Comparator model 
 
+### Comparator
+In many cases, we do an exact match but we can have more general or partial matches. 
+- Error bounds on numbers/ rounding errors
+- Ignore dates or times
+
 ### Test inputs
 How do we get these?
 - Humans may generate them
@@ -103,7 +108,3 @@ def foo1(a, b, c, d, e, f):
 
 We can make a control flow graph (CFG) to see the branches we need to cover, in this case, it is only six. Note that we need at most two tests to cover all branches, however, we can also look at all the possible paths we could take. This is known as path coverage and it is the percent of paths through the CFG we cover. Note that there are $2^n$ paths where $n$ is the number of conditionals to consider. 
 
-### Comparator
-In many cases, we do an exact match but we can have more general or partial matches. 
-- Error bounds on numbers/ rounding errors
-- Ignore dates or times
