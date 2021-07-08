@@ -82,27 +82,3 @@ Also, if a program fails, it will not send anything to the standard output. It w
 * **less**: Turns output into a file, instead of printing it onto the terminal.
 * **sort**: Sorts given values, alphabetical by default, numerical with -g.
 * **uniq**: Removes duplicates that are next to each other.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
