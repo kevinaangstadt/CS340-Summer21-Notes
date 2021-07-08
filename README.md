@@ -50,6 +50,31 @@ The header should look as follows and can be found in the template file.
 
 - Introduce a sinlge blank line in between paragraphs and between title headings and content
 
+#### 2.2.4 Code Blocks
+
+- Specify language for code blocks, with the exception of pseudo-code
+    + Note: some pseudo-code in the lectures is made to be similar to other languages, for example Python. In these cases the developer may specify this language as long as they are consistent within the block
+
+### 2.3 Other Formatting
+
+Other formatting guidelines where specified through the commit and issues history of the repository but where not stated in the template. These are more guidelines than hard rules but are recurring styles in the notes. 
+
+#### 2.3.1 Definitions and Commands
+
++ Make use of Markdown code syntax for bash commands, with explanations after a colon 
+    - Bolding may be used as well but this is preferred for definitions
+
+```markdown
+- `command`: explanation
+    + `-flag`: explanation
+
+- **definition**: explanation
+```
+
+#### 2.3.2 End of File Whitespace
+
++ Remove trailing whitespace except for single blank line after end of note content
+
 ## 3. Resources
 
 {insert- resources-here}
