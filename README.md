@@ -1,9 +1,18 @@
 # CS340-Summer21-Notes
 Lecture notes from SLU CS-340 Summer 2021
 
-## 1. Project Description
+## 1. Overview
 
-{insert-description-here}
+The repository contains the lecture notes for the Summer 2021 semester's instruction of CS 340: Software Engineering at St. Lawrence University. The notes are all written and curated as markdown files and formatted with the style guide specified below. 
+
+The course consisted of 29 class dates, however some lectures where dedicated to guest lectures and reading days. These sessions **do not** contain correspoding notes in the repo. 
+
+The Lecture Notes span the following topics in chronological order:
+1. The Command-Line
+2. Version Control Systems
+3. Quality Assurance
+4. Software Defects
+5. Software Design
 
 ## 2. Style Guide
 
