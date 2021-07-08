@@ -32,7 +32,7 @@ Let us motivate the origin of mutation testing via the strategies we might use t
 ### Bugs and Defects
 - Defect seeding is the process of adding defects to a program
 - Tangent Alert for the History Buffs:
-    + The first bug was a literal insect that got stuck in a computer
+    + The first bug was a literal insect that got stuck in a vacuum tube machine on a boat
 - We want our bugs to be similar to real bugs/defects that might hide in our codebase
     + Historical bugs we might see in our codes like switching boolean operators, off-by-one errors, index out of bounds, incorrect arithmetic operator, etc.
 - We are going to change our code base with automation
