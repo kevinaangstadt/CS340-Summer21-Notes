@@ -1,10 +1,11 @@
 #### CS 340 Class Notes Summer 2021
 # Lecture 08: GitHub and Repositories
-(mm/dd/2021)
+(05/19/2021)
 
 
 ## Information in Commit
-Commit messages can be several lines long (and should be??)
+Commit messages can be several lines long (and should be??)  
+
 - Describe the problem being fixed (can reference the bug report number) but description should still be standalone
 - Don't assume access to outside resources
 - Describe why the changes are being made
