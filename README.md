@@ -1,7 +1,7 @@
 # CS340-Summer21-Notes
 Lecture notes from SLU CS-340 Summer 2021
 
-## Project Description
+##  Project Description
 
 {insert-description-here}
 
@@ -16,7 +16,39 @@ Lecture notes from SLU CS-340 Summer 2021
 
 ### Template
 
-{insert-template-rationale-here}
+The Lecture_template.md file in the repository provides formatting guidelines for lecture note files. 
+
+#### Header
+
+- Include the course information in the first line of file as a four hash subtitle (####)
+- Add title, single hash (#), to each file with respective information on its lecture number, topic and date
+    + Not only does this provide a consistent style, but allows for easy 'grepping' of content based on files' useful information
+
+The header should look as follows and can be found in the template file. 
+
+```markdown
+#### CS 340 Class Notes Summer 2021
+# Lecture #: Topic   
+(mm/dd/2021)
+```
+
+#### Titles
+
+- Make use of double hashes for main sections (##) and add one more hash for subsections
+
+```
+## Section
+
+### Subsection
+
+#### Subsubsection
+```
+
+- Note: Lecture notes generally revolve around a couple main topics as opposed to many sectioned topics, so numbering headers is not necessary
+
+#### Whitespace 
+
+- Introduce a sinlge blank line in between paragraphs and between title headings and content
 
 ## Resources
 
