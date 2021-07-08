@@ -83,8 +83,9 @@ Wait, where do all these tests come from? and what even is a test case?
 
 ### Comparator
 In many cases, we do an exact match but we can have more general or partial matches. 
-- Error bounds on numbers/ rounding errors
-- Ignore dates or times
+- When could we use partial matches?
+    + Error bounds on numbers/ rounding errors
+    + Ignore specific dates or times
 
 ### Test inputs
 How do we get these?
