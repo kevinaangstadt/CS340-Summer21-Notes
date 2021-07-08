@@ -1,4 +1,6 @@
-# Lecture 5 Notes
+#### CS 340 Class Notes Summer 2021
+# Lecture 5: Shell Scripting/Version Control Systems  
+(05/12/2021)
 
 ## New Commands
 - `tmux -ls` - view of how many sessions are active
