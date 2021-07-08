@@ -1,24 +1,24 @@
 # CS340-Summer21-Notes
 Lecture notes from SLU CS-340 Summer 2021
 
-##  Project Description
+## 1. Project Description
 
 {insert-description-here}
 
-## Style Guide
+## 2. Style Guide
 
-###  Naming Convention
+### 2.1 Naming Convention
 
 - Name lecture files Lecture_{number}.md starting from 1 to comply with Lecture and Homework counting scheme of course site
 - If Lecture number is less than 10, use a leading zero before the number
     + Ex/ Lecture_05.md
     + This ensures files are sorted in chronological lecture order preventing Lecture_10.md to be sorted before Lecture_5.md
 
-### Template
+### 2.2 Template
 
 The Lecture_template.md file in the repository provides formatting guidelines for lecture note files. 
 
-#### Header
+#### 2.2.1 Header
 
 - Include the course information in the first line of file as a four hash subtitle (####)
 - Add title, single hash (#), to each file with respective information on its lecture number, topic and date
@@ -32,7 +32,7 @@ The header should look as follows and can be found in the template file.
 (mm/dd/2021)
 ```
 
-#### Titles
+#### 2.2.2 Titles
 
 - Make use of double hashes for main sections (##) and add one more hash for subsections
 
@@ -46,10 +46,10 @@ The header should look as follows and can be found in the template file.
 
 - Note: Lecture notes generally revolve around a couple main topics as opposed to many sectioned topics, so numbering headers is not necessary
 
-#### Whitespace 
+#### 2.2.3 Whitespace 
 
 - Introduce a sinlge blank line in between paragraphs and between title headings and content
 
-## Resources
+## 3. Resources
 
 {insert- resources-here}
