@@ -84,6 +84,6 @@ Other formatting guidelines where specified through the commit and issues histor
 
 + Remove trailing whitespace except for single blank line after end of note content
 
-## 3. Resources
+## 3. Citations
 
-{insert- resources-here}
+1. Kevin Angstadt. CS-340: Software Engineering. Summer 2021. St. Lawrence University, https://myslu.stlawu.edu/~kangstadt/teaching/summer21/340/. License: Creative Commons BY-SA 4.0.
