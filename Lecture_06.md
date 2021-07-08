@@ -1,8 +1,6 @@
 #### CS 340 Class Notes Summer 2021
-
 # Lecture 6: Version Control Systems
-
-(05-14)
+(05/14/2021)
 
 ## Goals
 
