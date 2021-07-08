@@ -37,67 +37,11 @@ Ex/ Regression test is failing... which lines should we change to fix things?
 	- 2,000,000,000 * (1/85,000) = ~23,529 min in google
 		- 16 days
 		- 1 hour (libpng) = ~2.68 years (google)
-		
 
+## Can We Use Testing + Coverage to Save The Day?
 
+**Reminder**: if we don't cpver/test line x, we can know nothing about that line
 
+Lines covered by failing test -> implicated by bug but: passing tests might cover simmilar lines. What can we do?
 
-
-
-
-
-
-Text-body 
-...  
-...  
-...  
-...  
-...  
-put two spaces for clean line breaks
-
-```python
-python example code(foo)
-	Statement
-	statement
-```
-
-Explanations of things.  
-...  
-...  
-...  
-...  
-
-- Bulleted Points
-	+ With more details
-
-**Maybe important detail**
-
-## Topic 2
-
-### Maybe this one is a list of steps or commands
-* listed item
-* listed item
-* **command**: explanation
-* **command -flag**: explanation
-
-## Topic 3
-
-```bash
-> Example bash commands
-> find random | grep *1.5
-> if [ -f $f ]
-> do
-> else
-> then
-> fi
-```
-Maybe sometimes you need to link something [here](https://en.wikipedia.org/wiki/Main_Page).
-
-### Additional Commands, comments 
-* **grep**
-* **find**
-* **cut**
-
-
-Project updates (?)  
-Resources used
+Maybe... ignore (rank lower) lines in failing tests that passed other tests... ranking of line "suspiciousness"
