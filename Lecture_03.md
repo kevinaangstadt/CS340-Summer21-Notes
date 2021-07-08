@@ -1,5 +1,6 @@
 #### CS 340 Class Notes Summer 2021 
 # Lecture 3: Command Line Utilities
+(05/07/2021)
 
 ## **Overview**
 
