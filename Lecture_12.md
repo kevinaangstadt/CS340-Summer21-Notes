@@ -49,16 +49,10 @@ f(); g();  ->  g(); f();
 ### Mutants
 A mutant (variant) is a version of the original program produced by applying one or more MO. The **order** is the number of MO applied. Hopefully, the test suite can find the mutants, this gives us more confidence than coverage alone since we get a sense that the test suite has previously identified code we know to be buggy. 
 
-Why does this work:
-- **Competent Programmer Hypothesis**
-    + Faults in programs are syntactically small and can be corrected with a few keystrokes
-    + If a test suite can find artificial mutants, it should also be good at finding bugs since they are also syntactically small bugs
-    + **BUT** not all bugs are small!
-- Because we want them to work since this gives a convenient metric
-    + We have the motivation to model more complex bugs via higher-order mutants
-    + This is known as the **Coupling Hypothesis**, the idea that complex faults are combinations of small faults
-- Note that tests that detect simple mutants can detect over 99% of 2nd and 3rd order mutants, which seems reasonable evidence for the two reasons provided
-- However, there are still other kinds of more complex bugs we might not be able to find via mutation testing
+### Competent Programmer Hypothesis
+Faults in programs are syntactically small and can be corrected with a few keystrokes. If a test suite can find artificial mutants, it should also be good at finding bugs since they are also syntactically small bugs. **BUT** not all bugs are small!
+
+We have the motivation to model more complex bugs via higher-order mutants. This is known as the **Coupling Hypothesis**, the idea that complex faults are combinations of small faults. This means that we can still use mutants to find more complex bugs. Note that tests that detect simple mutants can detect over 99% of 2nd and 3rd order mutants, which seems reasonable evidence for the two reasons provided. However, there are still other kinds of more complex bugs we might not be able to find via mutation testing
 
 What does MT measure?
 - Percent of mutants found by the test suite
