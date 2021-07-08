@@ -1,4 +1,6 @@
-# Lecture 4 Notes
+#### CS 340 Class Notes Summer 2021
+# Lecture 4: Shell Scripting/Editors  
+(05/20/2021)
 
 ## Commands
 * chown: change owner (username : group : file)
