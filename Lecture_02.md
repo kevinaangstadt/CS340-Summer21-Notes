@@ -2,7 +2,7 @@
 # Lecture 2: Linux Command Line Utilities
 (05/03/2021)
 
-### Commad Line Tools
+## Commad Line Tools
 **Why not use GUI's?**  
 - Hard to combine 2 programs with GUI's together
 - A lot of the programs we write do not have a GUI
@@ -19,11 +19,11 @@
 **ssh** - secure shell
 - connect remotely to another computer and run a shell
 
-### How to connect to the remote server for class
+## How to connect to the remote server for class
 `ssh <username>@cs-linuxlab-<number>.stlawu.local` 
 - (Use SLU password)
 
-### Command List:
+## Command List:
 `pwd` - prints working directory  
 `cd <dir name>` - changes into specified directory (default: home)  
 `ls` - lists files and directories inside of current directory ("-l" long output, "-h" human readable). 
@@ -43,18 +43,18 @@
 `$(<command>)` - embeds a command inside of another command  
 `less` - reader program ("/" to search, q to quit)
  
-### Directories
+## Directories
 - A directory is a folder
 - Root directory is /
 - Inside of root is bin, lib, home, ...
 - ".." refers to parrent directory
 - "." refers to current directory
 
-### Loops
+## Loops
 ```bash
 {
     for i in {<start>..<end>..<increment(optional)>}
-    do 
+    do
     <body>
     done
 }
@@ -81,4 +81,4 @@
 **Globbing**
 : wildcard characters to match anything meeting the given pattern
 
-A **pipe** ("|") redirects output from one program to be the input to the next program
+A **pipe** ("|") redirects output from one program to be the input to the next progra
