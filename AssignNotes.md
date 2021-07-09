@@ -5,7 +5,7 @@
 |--------|:-----------------:|:--------------:|:-------------:|:-------------:|
 | Day 01 | Jonah | y | y | Prof |
 | Day 02 | Cai | y | n | N/A |
-| Day 03 | Olivia | y | n | N/A |
+| Day 03 | Olivia | y | y | Kevin |
 | Day 04 | Kevin | y | n | N/A |
 | Day 05 | Eduardo | y | n | N/A |
 | Day 06 | Jonah | y | y | Olivia |

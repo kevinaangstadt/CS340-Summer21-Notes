@@ -1,12 +1,10 @@
-#### CS 340 Class Notes Summer 2021 
+### CS 340 Class Notes Summer 2021 
 # Lecture 3: Command Line Utilities
 (05/07/2021)
 
 ## Loops and Conditionals
-
+Note: Spaces in the syntax is **meaningful**.  Various commands will not work without the spaces.
 ### For-loops in Command Line:
-Note: Spaces in the syntax is **meaningful**.  Various commands will not work without the spaces. 
-
 ```
 > for (( i = 0; i < variable; i + 1)) 
 > do
@@ -14,7 +12,8 @@ Note: Spaces in the syntax is **meaningful**.  Various commands will not work wi
 > ...
 > ...
 > done
-```
+``` 
+
 ### If-statements in Command Line
 
 ```
@@ -72,7 +71,7 @@ Also, if a program fails, it will not send anything to the standard output. It w
 *  **mkdir**: Make a directory, followed by the name of the new directory.
 *  **cd**: Change directory. Can be followed by a tag or filepath, but defaults to home directory.
 
-## Additional Useful Commands and Expressions
+### Additional Useful Commands and Expressions
 
 * **grep**: Searches for files that fit a specific pattern. Ex: *test.pdf will find all files that end in test.pdf. 
 * **curl**: Opens a url.
