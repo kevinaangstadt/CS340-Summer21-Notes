@@ -1,5 +1,7 @@
-# CS340-Summer21-Notes
-Lecture notes from SLU CS-340 Summer 2021
+<img src="./Media/Angstadt_logo.png" width="200" align=right />
+
+# CS340-Summer21-Notes 
+Lecture notes from SLU CS-340 Summer 2021 
 
 ## 1. Overview
 
