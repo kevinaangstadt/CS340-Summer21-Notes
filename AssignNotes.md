@@ -7,7 +7,7 @@
 | Day 02 | Cai | y | n | N/A |
 | Day 03 | Olivia | y | y | Kevin |
 | Day 04 | Kevin | y | n | N/A |
-| Day 05 | Eduardo | y | n | N/A |
+| Day 05 | Eduardo | y | y | Kevin |
 | Day 06 | Jonah | y | y | Olivia |
 | Day 07 | Eduardo | y | y | Cai |
 | Day 08 | Kevin | y | n | N/A |
